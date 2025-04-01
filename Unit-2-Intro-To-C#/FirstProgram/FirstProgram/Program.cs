@@ -46,7 +46,7 @@ class Program
     static void Main(string[] args)
     {
         /*************************************************************
-         * Define my data the program needs at the top of the program
+         * Define any data the program needs at the top of the program
          *
          * Data maybe defined anywhere before its used, easier to
          * find at the top
@@ -62,22 +62,22 @@ class Program
          * string - a series of alpha numeric characters (words or sentence)
          * bool   - store true or false value for conditions
          *
-         * Ex: 10 if you have a value (int or long)
+         * Ex:  10 if you have a value (int or long)
          *      1.0 numeric value w/ demical (double)
          *      'a' note thats enclosed in ' ' (char)
          *      "some words" - note enclosed (string)
          *
-         * Variable names in C# are usually spelled in camelCase
+         * Variable names in C# are usually spelled in camelCase;
          * (camelCase- 1st letter is lowercase and other words are
          *              uppercase letter)
-         * It's always good to initial variable when defining them
+         * It's always good to initialize variable when defining them
          * know what is in them 
          **************************************************************/
         
         // Define the variable to hold the numbers we need to add
-        int number1 = 0;
-        int number2 = 0;
-        int number3 = 0;
+        int number1 = 0; //Since we will be doing math it needs to be numeric 
+        int number2 = 0; //Since we will be doing math it needs to be numeric 
+        int number3 = 0; //Since we will be doing math it needs to be numeric 
         
         //Define a variable to hold the sum of the numbers 
         int sum = 0;
@@ -86,17 +86,46 @@ class Program
         
         // Ask for the numbers one at a time using the C# Console object
         // which represents the keyboard and screen 
-        // Console.ReadLine() returns a string -cannot store int
+        // Console.ReadLine() returns a string from keyboard -cannot store int
         Console.WriteLine("Please enter a number: ");       // Asking for the number 
             string aLine;                                   // String to hold the line of input from the keyboard 
         aLine = Console.ReadLine();                       // Get a line from the keyboard
+        
         // We need an int value to store our number
         // Console.ReadLine() only return a string 
         // So we need to converet the string from Console.ReadLine() to an int
         // int.Parse(string) will convert a string to an int 
         number1 = int.Parse(aLine);
         
+        //Example:
+        //string theResponse;
+        // theResponse
+        // number1 = int.Parse(theResponse)
         
+        Console.WriteLine("Please enter a number: ");
+        aLine = Console.ReadLine(); //  Reusing aLine we defined above 
+        number2 = int.Parse(aLine);
+        
+        Console.WriteLine("Please enter a number: ");
+        aLine = Console.ReadLine(); // Reusing aLine we defined above 
+        number3= int.Parse(aLine);
+        
+       // 2. Add the numbers together create a sum/total
+       sum = number1 + number2 + number3 + sum;
+       
+       // Alternate option
+       // However you code as long as its correct solution 
+       // and  you understand it, its right 
+       
+       //sum  =  sum + number1;
+       //sum  = sum + number2;
+       //sum  = sum + number3;
+       
+       // Tell the requester the total (display)
+       Console.WriteLine("The sum is: " + sum);
+        8
+            
         Console.WriteLine("--- Ending program ---");
     }
 }
+
