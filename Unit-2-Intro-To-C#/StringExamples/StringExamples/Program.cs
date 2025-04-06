@@ -55,6 +55,7 @@ class Program
         }
         if (string1.CompareTo(string2) == 0) // if the first string is greater than second string 
         
+        
         {
             Console.WriteLine("string1 is equal string2");
         }
