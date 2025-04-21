@@ -1,0 +1,15 @@
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.AssemblyInfoInputs.cache
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.AssemblyInfo.cs
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.csproj.CoreCompileInputs.cache
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.sourcelink.json
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/bin/Debug/net8.0/ShoppingList
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/bin/Debug/net8.0/ShoppingList.deps.json
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/bin/Debug/net8.0/ShoppingList.runtimeconfig.json
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/bin/Debug/net8.0/ShoppingList.dll
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/bin/Debug/net8.0/ShoppingList.pdb
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.dll
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/refint/ShoppingList.dll
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.pdb
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ShoppingList.genruntimeconfig.cache
+/Users/preshousa/workspace/classwork/Unit-3-Collections/ShoppingList/ShoppingList/obj/Debug/net8.0/ref/ShoppingList.dll
