@@ -1,0 +1,15 @@
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/bin/Debug/net8.0/VariablesExcercise
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/bin/Debug/net8.0/VariablesExcercise.deps.json
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/bin/Debug/net8.0/VariablesExcercise.runtimeconfig.json
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/bin/Debug/net8.0/VariablesExcercise.dll
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/bin/Debug/net8.0/VariablesExcercise.pdb
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.AssemblyInfoInputs.cache
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.AssemblyInfo.cs
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.csproj.CoreCompileInputs.cache
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.sourcelink.json
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.dll
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/refint/VariablesExcercise.dll
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.pdb
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/VariablesExcercise.genruntimeconfig.cache
+/Users/preshousa/Desktop/Workspace/GrandCirus/VariablesExcercise/VariablesExcercise/obj/Debug/net8.0/ref/VariablesExcercise.dll
