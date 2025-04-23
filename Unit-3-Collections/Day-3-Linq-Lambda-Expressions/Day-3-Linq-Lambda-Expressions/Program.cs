@@ -29,11 +29,11 @@ internal class Program
 
         WriteSeparatorLine("Find an Entry");
 
-        while (true)
+        while (true) // Set up loop forever loop
         {
             if (!moreInput())
             {
-                break;
+                break; // Break out of loop based on a condition
             }
 
             Console.Write("\nEnter value to search for: ");
@@ -69,7 +69,9 @@ internal class Program
             //              from the List that made the condition true
             //
             // Note use of var type to hold the result of .Where()
-
+            
+            // Put all entries in starFleetPersonnel that match the conditon given
+            // into the variablr called matching entries 
             var matchingEntries =
                 starFleetPersonnel.Where(anEntry => anEntry.ToLower().Contains(searchString.ToLower()));
 
@@ -219,7 +221,7 @@ internal class Program
 
         bool getInput = true;   // Control the user interaction loop
 
-        do
+        do // variable control loop -- bool variable 
         {
             // Ask the user if they have any numbers to enter (Y/N)
             Console.WriteLine("\nDo you have any values to enter (Y/N)?");
@@ -242,7 +244,8 @@ internal class Program
                     isThereInput = false;
                 }
             }
-        } while (getInput); // Loop while we get input
+        } while (getInput); // Loop while we get input (loop based 
+        
 
         return isThereInput;
 
