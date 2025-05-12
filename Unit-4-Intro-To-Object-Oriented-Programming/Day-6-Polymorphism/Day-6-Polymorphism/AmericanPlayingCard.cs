@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Day_3_Inheritance
+namespace Day_6_Polymorphism
 {
-    // This will be a subclass of a PlayingCard
+    // This is a subclass of a PlayingCard
     // and will add what an AmericanPlaying needs that differs from a PlayingCard:
 
     //     Card values: 0 to 13 (Joker to King)
@@ -109,7 +109,7 @@ namespace Day_3_Inheritance
          * Overrides - Replace unwanted behavior of base class with behaviors for the subclass
          ***************************************************************************************/
 
-        // No Overrides requires as base class processing does what we want it to do
+        // No Overrides required as base class processing does what we want it to do
 
         /****************************************************************************************
          * User Methods for class - Allow user to use and manipulate the class
@@ -121,7 +121,7 @@ namespace Day_3_Inheritance
         }
 
         // Display an object of the class
-        public void ShowCard()
+        public override void ShowCard()
         {
             Console.WriteLine($"AmericanPlayingCard: Value: {GetCardValueName()} ({base.CardValue}), Suit: {base.CardSuit}, Color: {base.CardColor}");
         }
