@@ -106,9 +106,14 @@ function objects() {
 
   // Log the object
   console.log(person)
+  console.log('person contains: ${person}');
+  console.table(person);
+
 
   // Log the first and last name
 
+  console.log(' Person first name: ${person.firstname}')
+  console.log(' Person last name: ${person.lastname}')
   // Log each employee
 }
 
