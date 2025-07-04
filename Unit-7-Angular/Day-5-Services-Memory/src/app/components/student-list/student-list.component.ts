@@ -1,3 +1,20 @@
+/******************************************************
+ * 
+ * This is service 
+ * 
+ * It was initally created using : ng generate service/ service/student
+ * (ng generate automatically added the .service)
+ * (the .memory was added by instructor)
+ * 
+ * A service is a set of processing to facilitate the retrival 
+ * and storage of the data- typically in a persistent source (saved)
+ * 
+ * may do other processing as well
+ * 
+ * This service does not save 
+ */
+
+
 import { CommonModule }   from '@angular/common';
 import { Component }      from '@angular/core';
 import { StudentInfo }    from '../../interfaces/studentInfo';
@@ -12,6 +29,18 @@ import { RouterLink } from '@angular/router';
   styleUrl: './student-list.component.css'
 })
 export class StudentListComponent {
+
+  // this service does not save the dta to persistent source (like data base ort API)
+  // the data from this service s just an array in memory 
+  // a service must be dependency njectable by angular 
+  //  injectable means Angular is allowed to instantiate it 
+  // and pass it to a funtion 
+
+  // To make a service Dependency injectable:
+
+  // 1. import injectable from Angular jcore features 
+  // 2. Include the @injectable object w/ the providedIn property set to "root"
+
 // This will hold the data for the Student to be displayed
 // the data will come from a call to a service
 // it starts out as an empty array  
