@@ -1,24 +1,7 @@
-/******************************************************
- * 
- * This is service 
- * 
- * It was initally created using : ng generate service/ service/student
- * (ng generate automatically added the .service)
- * (the .memory was added by instructor)
- * 
- * A service is a set of processing to facilitate the retrival 
- * and storage of the data- typically in a persistent source (saved)
- * 
- * may do other processing as well
- * 
- * This service does not save 
- */
-
-
 import { CommonModule }   from '@angular/common';
 import { Component }      from '@angular/core';
-import { StudentInfo }    from '../../interfaces/studentInfo';
-import { StudentService } from '../../services/student.service.memory';
+import { StudentInfo }    from '../../interfaces/studentInfo';            // gic eme access to Studentinfo interface
+import { StudentService } from '../../services/student.service.memory';    // give eme acces to the student.service.memeory stuff
 import { RouterLink } from '@angular/router';
 
 @Component({

@@ -21,8 +21,13 @@ import { StudentInfo } from '../interfaces/studentInfo';  // Using the StudentIn
 export class StudentService {
 
  // A module contains data and methods/functions for processing that data
+
+ // A service usually keeps a cpoy og the data inside itself regardless of the source 
+ // source of data 
+ 
  
    // Source of data for calls to retrieve the data - initialized in the code
+   // private limits access to functions in this class 
    private listOfStudents : StudentInfo[] = []  // An array of StudentInfo objects
  
    // a constructor is method to initialized data defined in the module
@@ -52,5 +57,6 @@ export class StudentService {
          console.table(newStudent)            // optional - verify new student data
          this.listOfStudents.push(newStudent) // store the student in the data source
          console.table(this.listOfStudents)   // optional - verify new student was added to the array
+         // console.table(this.listOfStudents)
        }
 }
